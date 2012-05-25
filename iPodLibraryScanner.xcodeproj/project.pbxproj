@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8016D2A3156CE099003CB1E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8016D2A2156CE099003CB1E6 /* UIKit.framework */; };
+		8016D2A5156CE099003CB1E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8016D2A4156CE099003CB1E6 /* Foundation.framework */; };
+		8016D2A7156CE099003CB1E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8016D2A6156CE099003CB1E6 /* CoreGraphics.framework */; };
+		8016D2AD156CE099003CB1E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8016D2AB156CE099003CB1E6 /* InfoPlist.strings */; };
+		8016D2AF156CE099003CB1E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8016D2AE156CE099003CB1E6 /* main.m */; };
+		8016D2B3156CE099003CB1E6 /* iPodLibraryScannerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8016D2B2156CE099003CB1E6 /* iPodLibraryScannerAppDelegate.m */; };
+		8016D2B6156CE099003CB1E6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8016D2B4156CE099003CB1E6 /* MainStoryboard.storyboard */; };
+		8016D2B9156CE099003CB1E6 /* iPodLibraryScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8016D2B8156CE099003CB1E6 /* iPodLibraryScannerViewController.m */; };
+		807C9CBB156CEA7B0063C741 /* iPodLibraryScannerAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C9CBA156CEA7B0063C741 /* iPodLibraryScannerAlbumViewController.m */; };
+		80C83AC5156E48D000A9ED72 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C83AC4156E48D000A9ED72 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8016D29E156CE098003CB1E6 /* iPodLibraryScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPodLibraryScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8016D2A2156CE099003CB1E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8016D2A4156CE099003CB1E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8016D2A6156CE099003CB1E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8016D2AA156CE099003CB1E6 /* iPodLibraryScanner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPodLibraryScanner-Info.plist"; sourceTree = "<group>"; };
+		8016D2AC156CE099003CB1E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8016D2AE156CE099003CB1E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8016D2B0156CE099003CB1E6 /* iPodLibraryScanner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPodLibraryScanner-Prefix.pch"; sourceTree = "<group>"; };
+		8016D2B1156CE099003CB1E6 /* iPodLibraryScannerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPodLibraryScannerAppDelegate.h; sourceTree = "<group>"; };
+		8016D2B2156CE099003CB1E6 /* iPodLibraryScannerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPodLibraryScannerAppDelegate.m; sourceTree = "<group>"; };
+		8016D2B5156CE099003CB1E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8016D2B7156CE099003CB1E6 /* iPodLibraryScannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPodLibraryScannerViewController.h; sourceTree = "<group>"; };
+		8016D2B8156CE099003CB1E6 /* iPodLibraryScannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPodLibraryScannerViewController.m; sourceTree = "<group>"; };
+		807C9CB9156CEA7B0063C741 /* iPodLibraryScannerAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPodLibraryScannerAlbumViewController.h; sourceTree = "<group>"; };
+		807C9CBA156CEA7B0063C741 /* iPodLibraryScannerAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPodLibraryScannerAlbumViewController.m; sourceTree = "<group>"; };
+		80C83AC4156E48D000A9ED72 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8016D29B156CE098003CB1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C83AC5156E48D000A9ED72 /* MediaPlayer.framework in Frameworks */,
+				8016D2A3156CE099003CB1E6 /* UIKit.framework in Frameworks */,
+				8016D2A5156CE099003CB1E6 /* Foundation.framework in Frameworks */,
+				8016D2A7156CE099003CB1E6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8016D293156CE098003CB1E6 = {
+			isa = PBXGroup;
+			children = (
+				8016D2A8156CE099003CB1E6 /* iPodLibraryScanner */,
+				8016D2A1156CE098003CB1E6 /* Frameworks */,
+				8016D29F156CE098003CB1E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8016D29F156CE098003CB1E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8016D29E156CE098003CB1E6 /* iPodLibraryScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8016D2A1156CE098003CB1E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80C83AC4156E48D000A9ED72 /* MediaPlayer.framework */,
+				8016D2A2156CE099003CB1E6 /* UIKit.framework */,
+				8016D2A4156CE099003CB1E6 /* Foundation.framework */,
+				8016D2A6156CE099003CB1E6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8016D2A8156CE099003CB1E6 /* iPodLibraryScanner */ = {
+			isa = PBXGroup;
+			children = (
+				8016D2B1156CE099003CB1E6 /* iPodLibraryScannerAppDelegate.h */,
+				8016D2B2156CE099003CB1E6 /* iPodLibraryScannerAppDelegate.m */,
+				8016D2B4156CE099003CB1E6 /* MainStoryboard.storyboard */,
+				807C9CB9156CEA7B0063C741 /* iPodLibraryScannerAlbumViewController.h */,
+				807C9CBA156CEA7B0063C741 /* iPodLibraryScannerAlbumViewController.m */,
+				8016D2B7156CE099003CB1E6 /* iPodLibraryScannerViewController.h */,
+				8016D2B8156CE099003CB1E6 /* iPodLibraryScannerViewController.m */,
+				8016D2A9156CE099003CB1E6 /* Supporting Files */,
+			);
+			path = iPodLibraryScanner;
+			sourceTree = "<group>";
+		};
+		8016D2A9156CE099003CB1E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8016D2AA156CE099003CB1E6 /* iPodLibraryScanner-Info.plist */,
+				8016D2AB156CE099003CB1E6 /* InfoPlist.strings */,
+				8016D2AE156CE099003CB1E6 /* main.m */,
+				8016D2B0156CE099003CB1E6 /* iPodLibraryScanner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8016D29D156CE098003CB1E6 /* iPodLibraryScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8016D2BC156CE099003CB1E6 /* Build configuration list for PBXNativeTarget "iPodLibraryScanner" */;
+			buildPhases = (
+				8016D29A156CE098003CB1E6 /* Sources */,
+				8016D29B156CE098003CB1E6 /* Frameworks */,
+				8016D29C156CE098003CB1E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPodLibraryScanner;
+			productName = iPodLibraryScanner;
+			productReference = 8016D29E156CE098003CB1E6 /* iPodLibraryScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8016D295156CE098003CB1E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iPodLibraryScanner;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 8016D298156CE098003CB1E6 /* Build configuration list for PBXProject "iPodLibraryScanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8016D293156CE098003CB1E6;
+			productRefGroup = 8016D29F156CE098003CB1E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8016D29D156CE098003CB1E6 /* iPodLibraryScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8016D29C156CE098003CB1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8016D2AD156CE099003CB1E6 /* InfoPlist.strings in Resources */,
+				8016D2B6156CE099003CB1E6 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8016D29A156CE098003CB1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8016D2AF156CE099003CB1E6 /* main.m in Sources */,
+				8016D2B3156CE099003CB1E6 /* iPodLibraryScannerAppDelegate.m in Sources */,
+				8016D2B9156CE099003CB1E6 /* iPodLibraryScannerViewController.m in Sources */,
+				807C9CBB156CEA7B0063C741 /* iPodLibraryScannerAlbumViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8016D2AB156CE099003CB1E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8016D2AC156CE099003CB1E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8016D2B4156CE099003CB1E6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8016D2B5156CE099003CB1E6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8016D2BA156CE099003CB1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8016D2BB156CE099003CB1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8016D2BD156CE099003CB1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPodLibraryScanner/iPodLibraryScanner-Prefix.pch";
+				INFOPLIST_FILE = "iPodLibraryScanner/iPodLibraryScanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8016D2BE156CE099003CB1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPodLibraryScanner/iPodLibraryScanner-Prefix.pch";
+				INFOPLIST_FILE = "iPodLibraryScanner/iPodLibraryScanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8016D298156CE098003CB1E6 /* Build configuration list for PBXProject "iPodLibraryScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8016D2BA156CE099003CB1E6 /* Debug */,
+				8016D2BB156CE099003CB1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8016D2BC156CE099003CB1E6 /* Build configuration list for PBXNativeTarget "iPodLibraryScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8016D2BD156CE099003CB1E6 /* Debug */,
+				8016D2BE156CE099003CB1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8016D295156CE098003CB1E6 /* Project object */;
+}
